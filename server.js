@@ -9,17 +9,3 @@ app = config(app);
 var server = app.listen(app.get('port'), function() {
     console.log('Server up: http://localhost:' + app.get('port'));
 });
-//test git sublime
-/*p = config(app);
-
-var server = app.listen(app.get('port'), function() {
-    console.log('Server up: http://localhost:' + app.get('port'));
-})p = config(app);
-
-var server = app.listen(app.get('port'), function() {
-    console.log('Server up: http://localhost:' + app.get('port'));
-})p = config(app);
-
-var server = app.listen(app.get('port'), function() {
-    console.log('Server up: http://localhost:' + app.get('port'));
-})]*/
