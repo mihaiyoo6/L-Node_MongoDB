@@ -20,7 +20,7 @@ module.exports = function(app) {
 
     app.use(connect.logger('dev'));
     app.use(connect.bodyParser({
-        uploadDir:path.join(__dirname, 'public/upload/temp')
+        uploadDir:path.join(__dirname, '../public/upload/temp')
     }));
     app.use(connect.json());
     app.use(connect.urlencoded());
