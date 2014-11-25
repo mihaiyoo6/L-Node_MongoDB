@@ -2,7 +2,7 @@ $(function(){
 	$('#post-comment').hide();
 	$('#btn-comment').on('click', function(event){
 		event.preventDefault();
-		$('#post-comment').show();
+		$('#post-comment').slideDown();
 	});
 
 	$('#btn-like').on('click', function(event){
